@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%attr(644,root,root) %{_datadir}/*
-%attr(644,root,root) %{_libdir}/*
+%{_datadir}/*
+%{_libdir}/*
 %doc docs/ask_doc*
