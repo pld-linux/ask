@@ -2,7 +2,7 @@ Summary:	Active Spam Killer
 Summary(pl):	Aktywny zabójca niechcianej poczty reklamowej
 Name:		ask
 Version:	2.5.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
