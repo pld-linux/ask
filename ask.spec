@@ -24,13 +24,20 @@ your old mailboxes and generate a list of emails to be accepted
 automatically.
 
 %description -l pl
-Active Spam Killer (ASK) zabezpiecza twoj± skrzynkê pocztow± przed
-niechcian± poczt± reklamow±.
+Active Spam Killer (ASK) zabezpiecza skrzynkê pocztow± przed
+niechcian± poczt± reklamow± poprzez potwierdzanie adresu nadawcy przed
+w³a¶ciwym dostarczeniem poczty. Potwierdzenie zachodzi poprzez
+"wiadomo¶æ potwierdzaj±c±", która jest wysy³ana automatycznie do
+wszystkich nieznanych u¿ytkowników. Kiedy nadawca odpowie na t±
+wiadomo¶æ (zwyk³a odpowied¼ wystarczy), nastêpne listy od tej osoby
+bêd± dostarczane natychmiast. Mo¿na tak¿e podaæ (poprzez wyra¿enie
+regularne) adresy, które maj± byæ od razu akceptowane, odrzucane (ze
+stosown± odpowiedzi±) lub ignorowane. Pakiet zawiera tak¿e narzêdzie
+do przeszukiwania starych skrzynek i generowania listy adresów do
+automatycznego akceptowania.
 
 %prep
 %setup -q
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -51,7 +58,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
-%{_datadir}/*
-%{_libdir}/*
 %doc docs/ask_doc*
+%attr(755,root,root) %{_bindir}/*
+%{_libdir}/ask
+%{_datadir}/ask
+%{_mandir}/man1/*.1*
