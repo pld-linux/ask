@@ -5,7 +5,7 @@ Version:	2.5.0
 Release:	1
 License:	GPL
 Group:		Applications/Mail
-Source0:	http://unc.dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
 # Source0-md5:	5f5616f3bbdb218768d78598f243921d
 Requires:	python
 URL:		http://www.paganini.net/ask/
