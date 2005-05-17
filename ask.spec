@@ -1,12 +1,12 @@
 Summary:	Active Spam Killer
 Summary(pl):	Aktywny zabójca niechcianej poczty reklamowej
 Name:		ask
-Version:	2.5.0
-Release:	2
+Version:	2.5.2
+Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
-# Source0-md5:	5f5616f3bbdb218768d78598f243921d
+# Source0-md5:	e4522bb3accea23547b7954ce1d94481
 Requires:	python
 URL:		http://www.paganini.net/ask/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -46,10 +46,9 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/ask/samples,%{_datadir}/ask/templates}
 install -d $RPM_BUILD_ROOT%{_mandir}/man1
 install -d $RPM_BUILD_ROOT%{_libdir}/ask
 
-install ask.py asksetup.py askversion.py utils/asksenders.py $RPM_BUILD_ROOT%{_bindir}
+install askfilter asksetup askversion.py utils/asksenders $RPM_BUILD_ROOT%{_bindir}
 install askconfig.py asklock.py asklog.py askmail.py $RPM_BUILD_ROOT%{_libdir}/ask
 install askmain.py askmessage.py askremote.py $RPM_BUILD_ROOT%{_libdir}/ask
-install samples/* $RPM_BUILD_ROOT%{_datadir}/ask/samples
 install templates/* $RPM_BUILD_ROOT%{_datadir}/ask/templates
 install docs/*.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
