@@ -1,14 +1,14 @@
 Summary:	Active Spam Killer
 Summary(pl):	Aktywny zabójca niechcianej poczty reklamowej
 Name:		ask
-Version:	2.5.2
+Version:	2.5.3
 Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
-# Source0-md5:	e4522bb3accea23547b7954ce1d94481
+# Source0-md5:	491ce48168d70365d7480a6d3c28f87d
+URL:            http://www.paganini.net/ask/
 Requires:	python
-URL:		http://www.paganini.net/ask/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -57,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc docs/ask_doc*
+%doc ChangeLog docs/ask_doc*
 %attr(755,root,root) %{_bindir}/*
 %{_libdir}/ask
 %{_datadir}/ask
