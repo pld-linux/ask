@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Mail
 Source0:	http://dl.sourceforge.net/sourceforge/a-s-k/%{name}-%{version}.tar.gz
 # Source0-md5:	491ce48168d70365d7480a6d3c28f87d
-URL:            http://www.paganini.net/ask/
+URL:		http://www.paganini.net/ask/
 Requires:	python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
