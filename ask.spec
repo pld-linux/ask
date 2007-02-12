@@ -1,5 +1,5 @@
 Summary:	Active Spam Killer
-Summary(pl.UTF-8):   Aktywny zabójca niechcianej poczty reklamowej
+Summary(pl.UTF-8):	Aktywny zabójca niechcianej poczty reklamowej
 Name:		ask
 Version:	2.5.3
 Release:	1
