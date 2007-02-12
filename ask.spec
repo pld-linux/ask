@@ -1,5 +1,5 @@
 Summary:	Active Spam Killer
-Summary(pl):	Aktywny zabójca niechcianej poczty reklamowej
+Summary(pl.UTF-8):   Aktywny zabÃ³jca niechcianej poczty reklamowej
 Name:		ask
 Version:	2.5.3
 Release:	1
@@ -23,17 +23,17 @@ nastygram) or ignored. The package also includes a utility to scan
 your old mailboxes and generate a list of emails to be accepted
 automatically.
 
-%description -l pl
-Active Spam Killer (ASK) zabezpiecza skrzynkê pocztow± przed
-niechcian± poczt± reklamow± poprzez potwierdzanie adresu nadawcy przed
-w³a¶ciwym dostarczeniem poczty. Potwierdzenie zachodzi poprzez
-"wiadomo¶æ potwierdzaj±c±", która jest wysy³ana automatycznie do
-wszystkich nieznanych u¿ytkowników. Kiedy nadawca odpowie na t±
-wiadomo¶æ (zwyk³a odpowied¼ wystarczy), nastêpne listy od tej osoby
-bêd± dostarczane natychmiast. Mo¿na tak¿e podaæ (poprzez wyra¿enie
-regularne) adresy, które maj± byæ od razu akceptowane, odrzucane (ze
-stosown± odpowiedzi±) lub ignorowane. Pakiet zawiera tak¿e narzêdzie
-do przeszukiwania starych skrzynek i generowania listy adresów do
+%description -l pl.UTF-8
+Active Spam Killer (ASK) zabezpiecza skrzynkÄ™ pocztowÄ… przed
+niechcianÄ… pocztÄ… reklamowÄ… poprzez potwierdzanie adresu nadawcy przed
+wÅ‚aÅ›ciwym dostarczeniem poczty. Potwierdzenie zachodzi poprzez
+"wiadomoÅ›Ä‡ potwierdzajÄ…cÄ…", ktÃ³ra jest wysyÅ‚ana automatycznie do
+wszystkich nieznanych uÅ¼ytkownikÃ³w. Kiedy nadawca odpowie na tÄ…
+wiadomoÅ›Ä‡ (zwykÅ‚a odpowiedÅº wystarczy), nastÄ™pne listy od tej osoby
+bÄ™dÄ… dostarczane natychmiast. MoÅ¼na takÅ¼e podaÄ‡ (poprzez wyraÅ¼enie
+regularne) adresy, ktÃ³re majÄ… byÄ‡ od razu akceptowane, odrzucane (ze
+stosownÄ… odpowiedziÄ…) lub ignorowane. Pakiet zawiera takÅ¼e narzÄ™dzie
+do przeszukiwania starych skrzynek i generowania listy adresÃ³w do
 automatycznego akceptowania.
 
 %prep
